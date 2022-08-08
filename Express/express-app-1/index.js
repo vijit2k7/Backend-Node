@@ -9,7 +9,7 @@ app.get('/',(req,res)=>{
     res.send('Hello user!')
 });  //first api
 
-app.get('/hotels/:id([0-9]{3})',(req,res)=>{
+app.get('/hotels/:name/:id',(req,res)=>{
     console.log('request is',req.params);
     res.send('Hotel fetch api is called with hotel Number: '+req.params.id+req.params.name);
 })
