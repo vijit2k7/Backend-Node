@@ -1,6 +1,6 @@
 const express=require('express');
 const app = express();
-const port=3000;
+const port=4000;
 
 
 const userList=[{name:'Vijit',id:1},{name:'Tejas',id:2}];
